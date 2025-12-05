@@ -3,7 +3,7 @@ from typing import List, Optional
 import models, schemas, crud
 from database import engine, get_db
 
-# Crear tablas
+
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
@@ -12,9 +12,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# ============================================
-# ENDPOINTS BÁSICOS
-# ============================================
+
 
 @app.get("/", tags=["Inicio"])
 async def root():
@@ -36,10 +34,6 @@ async def say_hello(name: str):
     """Saludo personalizado"""
     return {"message": f"Bienvenido a sigmotoa FC, {name}!"}
 
-
-# ============================================
-# JUGADORES
-# ============================================
 
 @app.post("/jugadores", response_model=schemas.Jugador, tags=["Jugadores"])
 def crear_jugador_endpoint(jugador: schemas.JugadorCrear, db: Session = Depends(get_db)):
