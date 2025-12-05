@@ -29,4 +29,9 @@ class Estadistica():
 class Partido():
     pass
 
-
+ # Estadísticas del jugador en ese partido específico
+    goles_partido = Column(Integer, default=0)
+    asistencias_partido = Column(Integer, default=0)
+    minutos_jugados = Column(Integer, default=0)
+    tarjeta_amarilla = Column(Boolean, default=False)
+    tarjeta_roja = Column(Boolean, default=False)
