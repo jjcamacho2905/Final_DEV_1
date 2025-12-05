@@ -1,3 +1,1 @@
-Ya puedes editar?
-
-Me confirmas por fa
+Somos Jonathan Camacho y Maria Jose Rincon 
