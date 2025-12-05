@@ -6,16 +6,14 @@
    ✅Cada jugador debe tener un registro y esa es la presentacion del futbolistaque forma o hizo parte del eqipo, estos deben contar con dos sessiones que son: 
                 
                     
-                    ↪️Datos personales del jugador: Este contiene los datos de su nombre, apellido,numero de camiseta,fecha de nacimiento y la nacionalidad.
+             ↪️Datos personales del jugador: Este contiene los datos de su nombre, apellido,numero de camiseta,fecha de nacimiento y la nacionalidad.
+                       
+                    
+              ↪️Datos Deportivos Jugador: Resaltara sus caracteristicas fisicas y tecnicas,su altura, su peso,pie dominante,rol,mercado del jugador,lesiones,registro con el cluby amonestaciones por tarjetas.
                     
                     
                     
-                    ↪️Datos Deportivos Jugador: Resaltara sus caracteristicas fisicas y tecnicas,su altura, su peso,pie dominante,rol,mercado del jugador,lesiones,registro con el cluby amonestaciones por tarjetas.
-                    
-                    
-                    
-                    
-                    ↪️Estadisticas del jugador:Cada deportista ingresara de manera individual a registrar sus datos despues de cada entrenamiento, se mostrara el tiempo en la cancha,registro de los goles y mejores asistencias. 
+              ↪️Estadisticas del jugador:Cada deportista ingresara de manera individual a registrar sus datos despues de cada entrenamiento, se mostrara el tiempo en la cancha,registro de los goles y mejores asistencias. 
 
   ✅Partido:Esta debera tener fecha exacta que se tiene le encuentro,en cada partido se ven las estadisticas,resultado del partido, indicata si fue empate,victoria o derrota y se tiene registro de los penales.
 
@@ -46,4 +44,6 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 URL = https://final-dev-1-v38c.onrender.com
+
+
 AUTORES = Jonathan Camacho y Maria Jose Rincón
